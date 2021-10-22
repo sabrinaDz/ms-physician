@@ -7,7 +7,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+<<<<<<< HEAD
 import java.time.LocalDate;
+=======
+>>>>>>> origin/master
 import java.util.UUID;
 
 @Entity
@@ -26,7 +29,11 @@ public class Physician {
     private long tel;
     private long positionId;
     private UUID departmentId;
+<<<<<<< HEAD
     private LocalDate startDateActivity;
+=======
+
+>>>>>>> origin/master
 
 
 
